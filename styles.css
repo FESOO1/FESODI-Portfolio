@@ -27,13 +27,18 @@ nav {
 .navbar-links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 300px;
+    justify-content: space-evenly;
+    width: 450px;
     height: 65px;
     background: rgb(22, 25, 28);
-    padding: 0 5px;
     border-radius: 0.2rem;
     position: relative;
+}
+
+.navbar-links > hr {
+    border: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.192);
+    height: 80%;
 }
 
 .navbar-links > a {
@@ -42,9 +47,18 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
+    width: 100px;
     height: 55px;
     z-index: 2;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    transition: 100ms linear;
+}
+
+.navbar-links > a:active {
+    transform: scale(0.8);
 }
 
 .links::before {
@@ -64,11 +78,10 @@ nav {
 }
 
 .tracker {
+    transition: 300ms linear;
     position: absolute;
-    width: 55px;
     height: 55px;
     background: rgba(49, 49, 49, 0.61);
     border-radius: 0.2rem;
     z-index: 1;
-    left: 0;
 }

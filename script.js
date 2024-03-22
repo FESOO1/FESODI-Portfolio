@@ -13,4 +13,6 @@ allLinks.forEach((item, index) => {
     item.addEventListener('click', e => {
         trackTheLinks(e.target)
     });
+
+    item.classList.contains('active')  && trackTheLinks(item);
 })
