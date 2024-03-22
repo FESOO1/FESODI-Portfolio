@@ -81,7 +81,8 @@ nav {
     transition: 300ms linear;
     position: absolute;
     height: 55px;
-    background: rgba(49, 49, 49, 0.61);
+    background: linear-gradient(transparent, rgba(49, 49, 49, 0.61) 90%);
     border-radius: 0.2rem;
     z-index: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
