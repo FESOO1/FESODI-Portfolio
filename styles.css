@@ -182,11 +182,11 @@ main {
 }
 
 .top-projects > fieldset:nth-of-type(1) {
-    transform: translateY(70px);
+    transform: translateY(90px);
 }
 
 .top-projects > fieldset:nth-of-type(3) {
-    transform: translateY(70px);
+    transform: translateY(90px);
 }
 
 .top-projects > fieldset > legend {
@@ -209,7 +209,7 @@ main {
 .middle-projects > h1 {
     color: white;
     font-family: var(--font-of-handle);
-    font-size: max(5vw, 2rem);
+    font-size: max(6vw, 2rem);
 }
 
 .bottom-projects {
@@ -230,11 +230,11 @@ main {
 }
 
 .bottom-projects > fieldset:nth-of-type(1) {
-    transform: translateY(-70px);
+    transform: translateY(-90px);
 }
 
 .bottom-projects > fieldset:nth-of-type(3) {
-    transform: translateY(-70px);
+    transform: translateY(-90px);
 }
 
 .bottom-projects > fieldset > legend {
