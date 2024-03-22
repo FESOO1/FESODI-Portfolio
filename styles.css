@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Denk+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Grape+Nuts&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 
 :root {
     --font-of-handle: "Denk One", sans-serif;
     --font-of-web-developer: "Grape Nuts", cursive;
+
+    --font-for-links: "Passion One", sans-serif;
 }
 
 
@@ -74,8 +76,9 @@ nav {
     z-index: 2;
     text-decoration: none;
     box-sizing: border-box;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     transition: 100ms linear;
+    font-family: var(--font-for-links);
 }
 
 .navbar-links > a:not(.active) {
@@ -107,7 +110,7 @@ nav {
     height: 45px;
     background: linear-gradient(transparent, rgba(45, 53, 92, 0.61) 70%);
     /* border-radius: 0.5rem 0.5rem 0.1rem 0.1rem; */
-    border-radius: 0.5rem;
+    border-radius: 0.3rem 0.3rem 0.2rem 0.2rem;
     z-index: 1;
     border-bottom: 1px solid rgb(118, 132, 152);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
