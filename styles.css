@@ -14,6 +14,8 @@ body {
     width: 100%;
 }
 
+/* NAVBAR */
+
 nav {
     display: flex;
     justify-content: center;
@@ -31,8 +33,9 @@ nav {
     width: 450px;
     height: 65px;
     background: rgb(22, 25, 28);
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
     position: relative;
+    border: 1px solid rgba(97, 97, 97, 0.126);
 }
 
 .navbar-links > hr {
@@ -42,7 +45,6 @@ nav {
 }
 
 .navbar-links > a {
-    /* background: rgba(49, 49, 49, 0.61); */
     border-radius: 0.2rem;
     display: flex;
     justify-content: center;
@@ -86,5 +88,8 @@ nav {
     background: linear-gradient(transparent, rgba(45, 53, 92, 0.61) 90%);
     border-radius: 0.2rem;
     z-index: 1;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* CONTENT */
