@@ -43,9 +43,9 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     width: 450px;
-    height: 65px;
+    height: 55px;
     background: rgb(22, 25, 28);
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     /* border-radius: 0.8rem 0.8rem 0.1rem 0.1rem; */
     position: relative;
     border: 1px solid rgba(97, 97, 97, 0.126);
@@ -63,7 +63,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100px;
-    height: 55px;
+    height: 45px;
     z-index: 2;
     text-decoration: none;
     box-sizing: border-box;
@@ -97,7 +97,7 @@ nav {
 .tracker {
     transition: 500ms;
     position: absolute;
-    height: 55px;
+    height: 45px;
     background: linear-gradient(transparent, rgba(45, 53, 92, 0.61) 70%);
     /* border-radius: 0.5rem 0.5rem 0.1rem 0.1rem; */
     border-radius: 0.5rem;
