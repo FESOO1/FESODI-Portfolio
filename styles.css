@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Denk+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Grape+Nuts&display=swap');
+
+
+
+:root {
+    --font-of-handle: "Denk One", sans-serif;
+    --font-of-web-developer: "Grape Nuts", cursive;
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -33,8 +45,8 @@ nav {
     width: 450px;
     height: 65px;
     background: rgb(22, 25, 28);
-    /* border-radius: 0.5rem; */
-    border-radius: 0.8rem 0.8rem 0.1rem 0.1rem;
+    border-radius: 1rem;
+    /* border-radius: 0.8rem 0.8rem 0.1rem 0.1rem; */
     position: relative;
     border: 1px solid rgba(97, 97, 97, 0.126);
 }
@@ -87,9 +99,10 @@ nav {
     position: absolute;
     height: 55px;
     background: linear-gradient(transparent, rgba(45, 53, 92, 0.61) 70%);
-    border-radius: 0.5rem 0.5rem 0.1rem 0.1rem;
+    /* border-radius: 0.5rem 0.5rem 0.1rem 0.1rem; */
+    border-radius: 0.5rem;
     z-index: 1;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgb(118, 132, 152);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -111,14 +124,16 @@ main {
 }
 
 .home-section > h1 {
+    font-family: var(--font-of-handle);
     color: white;
     font-size: max(12vw, 2.2rem);
     text-align: center;
 }
 
 .home-section > span {
-    color: rgb(188, 9, 9);
+    color: rgb(189, 0, 0);
     font-size: max(3vw, 1.6rem);
+    font-family: var(--font-of-web-developer);
 }
 
 /* MEDIA QEURIES */
