@@ -37,7 +37,7 @@ nav {
 
 .navbar-links > hr {
     border: 0;
-    border-left: 1px solid rgba(93, 137, 225, 0.355);
+    border-left: 1px solid rgba(82, 84, 88, 0.355);
     height: 80%;
 }
 
@@ -79,16 +79,11 @@ nav {
     opacity: 0;
 }
 
-.navbar-links svg {
-    width: 45px;
-    fill: white;
-}
-
 .tracker {
     transition: 500ms;
     position: absolute;
     height: 55px;
-    background: linear-gradient(transparent, rgba(49, 49, 49, 0.61) 90%);
+    background: linear-gradient(transparent, rgba(45, 53, 92, 0.61) 90%);
     border-radius: 0.2rem;
     z-index: 1;
     border-bottom: 1px solid rgba(255, 255, 255, 1);
