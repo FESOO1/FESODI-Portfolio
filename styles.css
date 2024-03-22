@@ -10,7 +10,9 @@
     --font-for-links: "Passion One", sans-serif;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     padding: 0;
@@ -146,6 +148,65 @@ main {
     color: rgb(212, 0, 0);
     font-size: max(3vw, 1.6rem);
     font-family: var(--font-of-web-developer);
+}
+
+/* WORK SECTION */
+
+.projects-section {
+    width: 100%;
+    padding: 25px;
+}
+
+.projects-themselves {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.top-projects {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-projects > fieldset {
+    border: 0;
+}
+
+.top-projects > fieldset > iframe {
+    height: 100%;
+    background: white;
+    border-radius: 0.5rem;
+}
+
+.top-projects > fieldset:nth-of-type(1) {
+    transform: translateY(70px);
+}
+
+.top-projects > fieldset:nth-of-type(3) {
+    transform: translateY(70px);
+}
+
+.top-projects > fieldset > legend {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--font-of-web-developer);
+}
+
+.middle-projects {
+    width: 100%;
+    height: 220px;
+    background: red;
+}
+
+.bottom-projects {
+    width: 100%;
+    height: 500px;
+    background: red;
 }
 
 /* MEDIA QEURIES */
