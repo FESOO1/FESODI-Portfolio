@@ -37,7 +37,7 @@ nav {
 
 .navbar-links > hr {
     border: 0;
-    border-left: 1px solid rgba(255, 255, 255, 0.192);
+    border-left: 1px solid rgba(93, 137, 225, 0.355);
     height: 80%;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .navbar-links > a:not(.active) {
-    color: rgb(183, 183, 183);
+    color: rgb(141, 141, 141);
 }
 
 .active {
@@ -85,7 +85,7 @@ nav {
 }
 
 .tracker {
-    transition: 300ms linear;
+    transition: 500ms;
     position: absolute;
     height: 55px;
     background: linear-gradient(transparent, rgba(49, 49, 49, 0.61) 90%);
