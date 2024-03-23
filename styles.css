@@ -525,7 +525,10 @@ main {
     width: 45px;
 }
 
-.telegram {
+.telegram,
+.github,
+.phone,
+.mail {
     display: flex;
     align-items: center;
     column-gap: 13px;
@@ -537,9 +540,14 @@ main {
     font-size: 2rem;
     font-family: var(--button-font);
     transition: 300ms linear;
+    box-shadow: 0 1px 1px black;
+    border-top: 1px solid rgba(255, 255, 255, 0.484);
 }
 
-.inner-telegram {
+.inner-telegram,
+.inner-github,
+.inner-phone,
+.inner-mail {
     width: 150px;
     height: 45px;
     display: flex;
@@ -548,13 +556,35 @@ main {
     mask: linear-gradient(transparent, #202030 20%, #202030 80%, transparent);
 }
 
-.inner-telegram > span:nth-of-type(1) {
+.inner-telegram > span:nth-of-type(1),
+.inner-github > span:nth-of-type(1),
+.inner-phone > span:nth-of-type(1) {
     margin-top: 4px;
     transition: 300ms;
 }
 
-.telegram:hover .inner-telegram > span:nth-of-type(1) {
+.telegram:hover .inner-telegram > span:nth-of-type(1),
+.github:hover .inner-github > span:nth-of-type(1),
+.phone:hover .inner-phone > span:nth-of-type(1) {
     margin-top: -37px;
+}
+
+.inner-mail > span:nth-of-type(2) {
+    font-size: 1.2rem;
+}
+
+.inner-mail > span:nth-of-type(1) {
+    margin-top: 4px;
+    margin-bottom: 7px;
+    transition: 300ms;
+}
+
+.mail:hover .inner-mail > span:nth-of-type(1) {
+    margin-top: -36px;
+}
+
+.inner-mail {
+    width: 200px;
 }
 
 
