@@ -302,7 +302,33 @@ main {
     color: white;
     text-align: center;
     font-family: var(--font-of-handle);
-    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.journey-itself {
+    width: 100%;
+    margin-top: 50px;
+    /* display: grid; */
+}
+
+.journey-itself-1 {
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    column-gap: 15px;
+}
+
+.journey-one-img {
+    width: 50%;
+}
+
+.journey-one-text {
+    width: 50%;
+}
+
+
+.journey-one-img > img {
+    width: 80%;
 }
 
 /* MEDIA QEURIES */
