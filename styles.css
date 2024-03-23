@@ -513,6 +513,50 @@ main {
     margin-top: 50px;
 }
 
+.contact-ways {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contact-ways svg {
+    fill: white;
+    width: 45px;
+}
+
+.telegram {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    text-decoration: none;
+    color: white;
+    background: #202030;
+    padding: 9px;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-family: var(--button-font);
+    transition: 300ms linear;
+}
+
+.inner-telegram {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    mask: linear-gradient(transparent, #202030 20%, #202030 80%, transparent);
+}
+
+.inner-telegram > span:nth-of-type(1) {
+    margin-top: 4px;
+    transition: 300ms;
+}
+
+.telegram:hover .inner-telegram > span:nth-of-type(1) {
+    margin-top: -37px;
+}
+
 
 /* MEDIA QEURIES */
 
