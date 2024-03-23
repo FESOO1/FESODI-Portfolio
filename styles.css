@@ -271,6 +271,7 @@ main {
     height: 500px;
     display: flex;
     justify-content: space-around;
+    row-gap: 25px;
 }
 
 .bottom-projects > fieldset {
@@ -627,14 +628,14 @@ main {
     }
     .middle-projects {
         flex-wrap: wrap;
-        margin-top: -50px;
+        margin-top: -60px;
     }
     .middle-projects > h1 {
         font-size: max(9vw, 2.9rem);
     }
     .bottom-projects {
         flex-wrap: wrap;
-        margin-top: -20px;
+        margin-top: -40px;
         column-gap: 5px;
     }
     .top-projects > fieldset:nth-of-type(1) {
@@ -659,6 +660,17 @@ main {
 @media (max-width: 625px) {
     .projects-section {
         height: 1570px;
+    }
+}
+
+@media (max-width: 385px) {
+    .bottom-projects > fieldset {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-projects > fieldset > iframe {
+        width: 90%;
     }
 }
 
@@ -710,6 +722,18 @@ main {
         width: 100%;
         padding-left: 0px;
         text-align: justify;
+    }
+}
+
+@media (max-width: 450px) {
+    .journey-itself-1 {
+        padding: 30px;
+    }
+    .journey-itself-2 {
+        padding: 30px;
+    }
+    .journey-itself-3 {
+        padding: 30px;
     }
 }
 
