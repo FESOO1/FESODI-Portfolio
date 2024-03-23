@@ -599,3 +599,13 @@ main {
 @media (max-width: 500px) {
 
 }
+
+/* MEDIA QUERY FOR PROJECTS SECTION */
+
+@media (max-width: 1030px) {
+    .projects-section {
+        padding-inline: 5px;
+        padding: 0;
+        padding-block: 35px;
+    }
+}
