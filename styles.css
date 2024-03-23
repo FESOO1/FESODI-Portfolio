@@ -313,7 +313,7 @@ main {
 }
 
 .journey-text > h1 {
-    font-size: max(7vw, 2rem);
+    font-size: max(7vw, 2.9rem);
     color: white;
     text-align: center;
     font-family: var(--font-of-handle);
@@ -666,3 +666,58 @@ main {
 /* MEDIA QUERY FOR JOURNEY SECTION */
 
 
+@media (max-width: 1000px) {
+    .journey-itself {
+        padding-inline: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .journey-itself-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .journey-one-img {
+        width: 100%;
+    }
+    .journey-one-text {
+        width: 100%;
+        padding-left: 0px;
+        text-align: justify;
+    }
+    .journey-itself-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .journey-two-img {
+        width: 100%;
+    }
+    .journey-two-text {
+        width: 100%;
+        padding-right: 0;
+    }
+    .journey-itself-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .journey-three-img {
+        width: 100%;
+    }
+    .journey-three-text {
+        width: 100%;
+        padding-left: 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 390px) {
+    .journey-one-text > h2 {
+        text-align: center;
+    }
+    .journey-three-text > h2 {
+        text-align: center;
+    }
+}
