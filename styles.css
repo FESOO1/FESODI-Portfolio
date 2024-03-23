@@ -617,12 +617,15 @@ main {
         display: grid;
         grid-template-columns: 1fr;
     }
-    /* .top-projects {
-        grid-column: 2 / -1;
+    .top-projects {
+        flex-wrap: wrap;
     }
     .middle-projects {
-        grid-column: 1 / -1;
-    } */
+        flex-wrap: wrap;
+    }
+    .bottom-projects {
+        flex-wrap: wrap;
+    }
     .top-projects > fieldset:nth-of-type(1) {
         transform: translateY(0px);
     }
