@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Denk+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Grape+Nuts&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
+
+
 
 
 :root {
@@ -8,6 +12,7 @@
     --font-of-web-developer: "Grape Nuts", cursive;
 
     --font-for-links: "Passion One", sans-serif;
+    --paragraph-font: "Tauri", sans-serif;
 }
 
 html {
@@ -82,6 +87,7 @@ nav {
     position: fixed;
     width: 100%;
     height: 70px;
+    z-index: 999;
 }
 
 .navbar-links {
@@ -98,7 +104,6 @@ nav {
     border: 1px solid rgba(97, 97, 97, 0.126);
     box-shadow: 0 0 55px rgba(14, 14, 14, 1);
     transition: 200ms;
-    z-index: 999;
 }
 
 .navbar-links:hover {
@@ -197,6 +202,7 @@ main {
 .projects-section {
     width: 100%;
     padding: 25px;
+    background-color: #212529;
 }
 
 .projects-themselves {
@@ -291,6 +297,8 @@ main {
 
 .journey-section {
     width: 100%;
+    
+    background: #161a1d;
 }
 
 .journey-text {
@@ -308,6 +316,7 @@ main {
 .journey-itself {
     width: 100%;
     margin-top: 50px;
+    padding-inline: 50px;
 }
 
 .journey-itself-1 {
@@ -315,30 +324,116 @@ main {
     display: flex;
     justify-content: center;
     padding: 50px;
-    background: #161a1d;
+    background-color: #343A40;
     align-items: center;
 }
 
 .journey-one-img {
     width: 50%;
-    background: red;
     display: flex;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
-
-.journey-one-text {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
 
 .journey-one-img > img {
     width: 100%;
     height: 380px;
     object-fit: cover;
 }
+
+.journey-one-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    row-gap: 25px;
+    color: white;
+}
+
+.journey-one-text > h2 {
+    font-size: 2rem;
+}
+
+.journey-one-text > p {
+    font-family: var(--paragraph-font);
+}
+
+.know-more-button {
+    width: 150px;
+    height: 45px;
+    font-size: 1.5rem;
+    background: #1e2327;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    border-radius: 0.2rem;
+    transform: translateY(3px);
+    transition: 250ms linear;
+}
+
+.know-more-button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.more-anchor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-more-button:hover {
+    transition: 100ms;
+    box-shadow: 0 3px 1px rgb(117, 117, 117);
+    transform: translateY(0);
+}
+
+.journey-itself-2 {
+    width: 100%;
+    background-color: #495057;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.journey-two-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 25px;
+    padding-right: 55px;
+}
+
+.journey-two-text > h2 {
+    font-size: 2rem;
+}
+
+.journey-two-text > p {
+    column-width: 250px;
+    text-align: justify;
+    font-family: var(--paragraph-font);
+}
+
+.journey-two-text > p::first-letter {
+    font-size: 3rem;
+    float: left;
+    margin-right: 10px;
+    color: rgb(255, 115, 0);
+}
+
+.journey-two-img {
+    width: 50%;
+}
+
+.journey-two-img > img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
 
 /* MEDIA QEURIES */
 
