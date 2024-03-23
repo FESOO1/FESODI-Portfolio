@@ -96,8 +96,9 @@ nav {
     /* border-radius: 0.8rem 0.8rem 0.1rem 0.1rem; */
     position: relative;
     border: 1px solid rgba(97, 97, 97, 0.126);
-    box-shadow: 0 0 22px rgba(14, 14, 14, 0.529);
+    box-shadow: 0 0 55px rgba(14, 14, 14, 1);
     transition: 200ms;
+    z-index: 999;
 }
 
 .navbar-links:hover {
