@@ -623,6 +623,10 @@ main {
     }
     .middle-projects {
         flex-wrap: wrap;
+        margin-top: -50px;
+    }
+    .middle-projects > h1 {
+        font-size: max(9vw, 2rem);
     }
     .bottom-projects {
         flex-wrap: wrap;
