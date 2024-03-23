@@ -619,6 +619,7 @@ main {
     }
     .top-projects {
         flex-wrap: wrap;
+        display: none;
     }
     .middle-projects {
         flex-wrap: wrap;
