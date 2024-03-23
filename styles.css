@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Denk+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Grape+Nuts&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
 
@@ -12,7 +13,11 @@
     --font-of-web-developer: "Grape Nuts", cursive;
 
     --font-for-links: "Passion One", sans-serif;
-    --paragraph-font: "Tauri", sans-serif;
+    --paragraph-font: "Nunito Sans", sans-serif;
+
+    --h2-font: "Amaranth", sans-serif;
+
+    --button-font: "Staatliches", sans-serif;
 }
 
 html {
@@ -297,7 +302,7 @@ main {
 
 .journey-section {
     width: 100%;
-    
+    padding-bottom: 45px;
     background: #161a1d;
 }
 
@@ -319,6 +324,8 @@ main {
     padding-inline: 50px;
 }
 
+/* 1 */
+
 .journey-itself-1 {
     width: 100%;
     display: flex;
@@ -331,27 +338,28 @@ main {
 .journey-one-img {
     width: 50%;
     display: flex;
-    border-radius: 0.5rem;
-    overflow: hidden;
 }
 
 .journey-one-img > img {
     width: 100%;
     height: 380px;
     object-fit: cover;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
 }
 
 .journey-one-text {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
-    row-gap: 25px;
+    padding-left: 45px;
+    row-gap: 17px;
     color: white;
 }
 
 .journey-one-text > h2 {
     font-size: 2rem;
+    font-family: var(--h2-font);
 }
 
 .journey-one-text > p {
@@ -360,8 +368,7 @@ main {
 
 .know-more-button {
     width: 150px;
-    height: 45px;
-    font-size: 1.5rem;
+    height: 47px;
     background: #1e2327;
     border: 1px solid rgba(255, 255, 255, 0.308);
     border-radius: 0.2rem;
@@ -380,13 +387,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--button-font);
+    letter-spacing: 3px;
+    font-size: 1.9rem;
 }
 
 .know-more-button:hover {
     transition: 100ms;
-    box-shadow: 0 3px 1px rgb(117, 117, 117);
+    box-shadow: 0 3px 1px rgb(0, 0, 0);
     transform: translateY(0);
 }
+
+/* 1 */
 
 .journey-itself-2 {
     width: 100%;
@@ -408,6 +420,7 @@ main {
 
 .journey-two-text > h2 {
     font-size: 2rem;
+    font-family: var(--h2-font);
 }
 
 .journey-two-text > p {
@@ -432,6 +445,49 @@ main {
     height: 380px;
     object-fit: cover;
     border-radius: 0.5rem;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+}
+
+/* 3 */
+
+.journey-itself-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #4f5d75;
+    align-items: center;
+}
+
+.journey-three-img {
+    width: 50%;
+    display: flex;
+}
+
+.journey-three-img > img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+}
+
+.journey-three-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    row-gap: 17px;
+    color: white;
+}
+
+.journey-three-text > h2 {
+    font-size: 2rem;
+    font-family: var(--h2-font);
+}
+
+.journey-three-text > p {
+    font-family: var(--paragraph-font);
 }
 
 
