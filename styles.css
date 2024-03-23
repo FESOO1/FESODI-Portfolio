@@ -522,6 +522,8 @@ main {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
 .contact-ways svg {
@@ -607,5 +609,30 @@ main {
         padding-inline: 5px;
         padding: 0;
         padding-block: 35px;
+    }
+}
+
+@media (max-width: 940px) {
+    .projects-themselves {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /* .top-projects {
+        grid-column: 2 / -1;
+    }
+    .middle-projects {
+        grid-column: 1 / -1;
+    } */
+    .top-projects > fieldset:nth-of-type(1) {
+        transform: translateY(0px);
+    }
+    .top-projects > fieldset:nth-of-type(3) {
+        transform: translateY(0px);
+    }
+    .bottom-projects > fieldset:nth-of-type(1) {
+        transform: translateY(0px);
+    }
+    .bottom-projects > fieldset:nth-of-type(3) {
+        transform: translateY(0px);
     }
 }
