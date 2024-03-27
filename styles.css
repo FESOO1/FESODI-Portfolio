@@ -745,3 +745,16 @@ main {
         text-align: center;
     }
 }
+
+/* MEDIA QEURY FOR MENU */
+
+@media (max-width: 550px) {
+    .navbar-links {
+        width: 300px;
+        padding-inline: 5px;
+        column-gap: 5px;
+    }
+    .navbar-links > a {
+        font-size: 1.3rem;
+    }
+}
