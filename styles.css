@@ -154,13 +154,13 @@ main {
     font-size: max(12vw, 2.2rem);
     text-align: center;
     animation: 400ms linear forwards animation-h1-main;
-    animation-delay: 10ms;
+    animation-delay: 20ms;
     opacity: 0;
 }
 
 @keyframes animation-h1-main {
     from{opacity: 0;
-        transform: scale(1.4);
+        transform: scale(1.6);
     filter: blur(15px);}
     to{opacity: 1; 
     filter: blur(0);
@@ -171,7 +171,7 @@ main {
     color: rgb(212, 0, 0);
     font-size: max(3vw, 1.6rem);
     font-family: var(--font-of-web-developer);
-    animation: 400ms linear forwards animation-span-main;
+    animation: 300ms linear forwards animation-span-main;
     animation-delay: 200ms;
     opacity: 0;
 }
