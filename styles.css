@@ -230,6 +230,8 @@ main {
 }
 
 .top-projects > fieldset > iframe {
+    width: 370px;
+    min-width: 280px;
     height: 100%;
     background: white;
     border-radius: 0.5rem;
@@ -279,6 +281,8 @@ main {
 }
 
 .bottom-projects > fieldset > iframe {
+    width: 370px;
+    min-width: 280px;
     height: 100%;
     background: white;
     border-radius: 0.5rem;
