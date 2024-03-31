@@ -181,7 +181,7 @@ nav {
     row-gap: 30px;
     border-bottom: 1px solid white;
     overflow: hidden;
-    transition: 500ms linear;
+    transition: 500ms;
     box-shadow: 0 0 25px rgba(130, 130, 130, 0.3);
 }
 
@@ -750,7 +750,7 @@ footer {
 @media (max-width: 560px) {
     .about-us-section-inner > p {
         padding: 0 30px;
-        text-align: justify;
+        text-align: center;
         font-size: 1rem;
     }
 }
